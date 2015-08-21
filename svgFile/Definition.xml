@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ExtensionObject Label="SVG File Viewer" Description="SVG File Viewer" PageHeight="100000">
+  <Dimension Label="Section ID" Initial="" />
+  <Measurement Label="Measure" Initial="Sum(Num)" />
+  <Measurement Label="Color Expression" Initial="Sum(Num)" />
+  <Measurement Label="Popup Contents" Initial=""/>
+  <Text Label="Load SVG File" Type="text"/>
+  <Text Label="SVG Path Prefix" Type="text" Initial="pathID" />
+</ExtensionObject>
