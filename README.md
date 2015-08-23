@@ -5,6 +5,8 @@ A simple extension to display an SVG file and use it with QlikView data. This ha
 
 ![QlikView Extension svgFile](screenshot.PNG)
 
+![QlikView Extension svgFile](screenshot1.PNG)
+
 Properties:
 -----------
 
