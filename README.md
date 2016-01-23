@@ -17,6 +17,6 @@ Properties:
 5. Load SVG File: filename of the SVG file, should be copied into the extension folder
 6: SVG Path Prefix: to generate unique SVG element or path IDs this prefix will be replaced by Object ID (from container DIV), use this as prefix for all element IDs (with inkscape or else)
 
-Piece of advice
----------------
+Piece of advice:
+----------------
 SVG id's for elements or path' are case sensitive! Keep this into account to set up your dimension data. If not, SVG elements will probably not match with your data.

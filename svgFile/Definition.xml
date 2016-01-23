@@ -1,9 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ExtensionObject Label="SVG File Viewer" Description="SVG File Viewer" PageHeight="100000">
+<ExtensionObject Label="SVG File Viewer" Description="SVG File Viewer" PageHeight="100000" PageWidth="4">
   <Dimension Label="Section ID" Initial="" />
-  <Measurement Label="Measure" Initial="Sum(Num)" />
-  <Measurement Label="Color Expression" Initial="Sum(Num)" />
+  <Measurement Label="Measure" Initial="" />
+  <Measurement Label="Color Expression" Initial="" />
   <Measurement Label="Popup Contents" Initial=""/>
-  <Text Label="Load SVG File" Type="text"/>
-  <Text Label="SVG Path Prefix" Type="text" Initial="pathID" />
+  <Text Label="Load SVG File" Type="text" Expression="" />
+  <Text Label="SVG Path Prefix" Type="text" Expression="pathID" />
+  <Initiate Name="Chart.Dimension.0.Field" Value="SectionID" />
+  <Initiate Name="Chart.Expression.0.0.Definition" Value="=Sum(Num)" />
+  <Initiate Name="Chart.Expression.1.0.Definition" Value="=Sum(Num)" />
+  <Initiate Name="Chart.Expression.2.0.Definition" Value="='Text'" />
+  <Initiate Name="Chart.Title" value="SVG File Viewer" /> 
+  <Initiate Name="Caption.Text" Value="SVG File Viewer"/>
 </ExtensionObject>
